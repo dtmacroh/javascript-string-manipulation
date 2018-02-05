@@ -150,7 +150,7 @@ function nonEmptyLines(s){
 	
 	for (let i=0;i<lines.length;i++)
 	{
-		if (lines[i].match(pat))
+		if (lines[i].trim().match(pat))
 		{ 	
 			nonEmpty++;
 			console.log(lines[i]);
