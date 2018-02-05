@@ -1,6 +1,10 @@
-//
-// 	Name: Debbie Macrohon	
-//	UCID: 10121170
+/*
+	SENG 513 
+	
+ 	Name: Debbie Macrohon	
+	UCID: 10121170
+	Description: The purpose of this assignment is to practice JavaScript programming.
+*/
 function getStats(txt) {
     let s = document.getElementById("txtarea").value.toLowerCase();
 	let arr = s.match(/[a-z0-9]+/gi);
